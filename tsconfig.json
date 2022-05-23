@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es6", /**指定ECMAScript目标版本**/  
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, /**允许编译js文件**/
+    "skipLibCheck": true, /**忽略所有的声明文件的类型检查**/ 
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true, /**启用所有严格类型检查选项**/ 
+    "forceConsistentCasingInFileNames": true, /**禁止对同一个文件的不一致的引用**/   
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext", /**指定生成哪个模块系统代码**/ 
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"  /**支持JSX**/     
+  },
+  "include": [
+    "src" /**指定编译目录**/
+  ]
+}
